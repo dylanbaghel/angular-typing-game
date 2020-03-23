@@ -1,0 +1,71 @@
+.unset {
+    color: #f4f4f4;
+}
+
+.correct {
+    color: #019031;
+}
+
+.wrong {
+    color: #FF3E4D;
+    font-weight: 900;
+}
+
+.danger-bg {
+    background: #FF3E4D;
+}
+
+.wrapper {
+    background: #f4f4f4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background: #2B2B52;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    width: 50%;
+    position: relative;
+}
+
+.random-text {
+    margin-top: 1rem;
+}
+
+.form-control {
+    margin-top: 2rem;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    outline: none;
+    width: 100%;
+    border: none;
+    border: 1px solid #333;
+}
+
+.success-msg {
+    margin-top: 3rem;
+    background: #f4f4f4;
+    color: #000;
+    padding: 0.75rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    font-size: 0.5rem;
+}
+
+.reload {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
